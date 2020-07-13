@@ -1,0 +1,156 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../icons/icomoon.eot?z18uvt');
+  src:  url('../icons/icomoon.eot?z18uvt#iefix') format('embedded-opentype'),
+    url('../icons/icomoon.ttf?z18uvt') format('truetype'),
+    url('../icons/icomoon.woff?z18uvt') format('woff'),
+    url('../icons/icomoon.svg?z18uvt#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-triangle-down:before {
+  content: "\e901";
+}
+.icon-cog:before {
+  content: "\e902";
+}
+.icon-gear:before {
+  content: "\e902";
+}
+.icon-preferences:before {
+  content: "\e902";
+}
+.icon-settings:before {
+  content: "\e902";
+}
+.icon-generate:before {
+  content: "\e902";
+}
+.icon-control:before {
+  content: "\e902";
+}
+.icon-options:before {
+  content: "\e902";
+}
+.icon-heart:before {
+  content: "\e903";
+}
+.icon-fire:before {
+  content: "\e904";
+}
+.icon-home:before {
+  content: "\e900";
+}
+/***********************************************/
+
+body{
+  margin: 0;
+}
+.header{
+  background-color: #fffeff;
+  width: 100%;
+  height: 45px;
+  display: grid;
+  grid-template-columns: .2fr 1fr .4fr;
+  grid-template-rows: 45px;
+  /* align-content: center; */
+
+  justify-items: center;
+  align-items: center;
+  box-shadow: 5px 1px 10px #888888;
+}
+.header-buscar{
+  text-align: center;
+  width: 100%;
+}
+.header-busqueda{
+  width: 50%;
+  border: 1px solid #dbdbe2;
+  border-radius: 5px ;
+}
+.header-profile{
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  
+}
+.header-profile p, img{
+  margin: 0;
+  display: inline-block;
+}
+.header-profile img{
+    max-width: 40px;
+    border-radius: 50%;
+}
+.header-profile i{
+  text-align: center;
+  width: auto;
+  height: auto;
+}
+ .nombre{
+  padding-right: 5px;
+}
+
+.profile-more{
+  width: 40px;
+  height: 40px;
+  color: black;
+}
+
+
+
+.home{
+  display: block;
+  line-height: 40px;
+  /* background-color: rgba(27, 33, 39, .8); */
+  text-align: center;
+  /* position: fixed;*/
+  color: #fcfdff;
+} 
+.navigation{
+  width: 80px;
+  height: 94vh;
+  background-color: #fd6162;
+  position: relative;
+  display: grid;
+  /* gap: 10px; */
+}
+
+.navigation-items a{
+  text-decoration: none;
+  color: #fcfdff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navigation-list{
+  display: grid;
+  grid-template-rows: repeat(3, .2fr) 1fr;
+  cursor: pointer;
+  list-style:none;
+  margin: 0;
+  padding: 15px 0;
+  text-align: center;
+  
+}
+
+.settings{
+  align-self: flex-end;
+}

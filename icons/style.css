@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?z18uvt');
+  src:  url('fonts/icomoon.eot?z18uvt#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?z18uvt') format('truetype'),
+    url('fonts/icomoon.woff?z18uvt') format('woff'),
+    url('fonts/icomoon.svg?z18uvt#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-triangle-down:before {
+  content: "\e901";
+}
+.icon-cog:before {
+  content: "\e902";
+}
+.icon-gear:before {
+  content: "\e902";
+}
+.icon-preferences:before {
+  content: "\e902";
+}
+.icon-settings:before {
+  content: "\e902";
+}
+.icon-generate:before {
+  content: "\e902";
+}
+.icon-control:before {
+  content: "\e902";
+}
+.icon-options:before {
+  content: "\e902";
+}
+.icon-heart:before {
+  content: "\e903";
+}
+.icon-fire:before {
+  content: "\e904";
+}
+.icon-home:before {
+  content: "\e900";
+}
